@@ -1,4 +1,4 @@
-# introdution fichier logLog-It-project
+# introdution fichier log
 
 Chaque action d'un système informatique (ouverture d'une session, installation d'un programme, navigation sur Internet...)
 produit un fichier log. Ces fichiers textes listent chronologiquement les évènements exécutés par un serveur ou une application informatique.

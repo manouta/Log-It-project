@@ -1,0 +1,40 @@
+body {
+        background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url(../images/img7.jpg);
+        background-size: cover;
+        background-position: center;
+        color: #FFF !important;
+        height: 100vh;
+        background-repeat:no-repeat;
+      width: 100%;  
+      display: flex;  
+    justify-content: center; 
+    align-items: center;  
+    flex-direction: column;   
+    font-family: 'Montserrat', sans-serif;    
+    margin: -20px 0 50px; 
+   }
+	 h1{
+	 	color: 	white;
+         border-color: white;
+	 }
+ button{
+  width: 390px;
+  border: 3px solid #fff;
+  background: transparent;
+  padding: 15px 30px;
+  border-radius: 50px;
+  outline: none;
+  font-size: 18px;
+  color: #fff;
+    
+         }
+button a {text-decoration-color:#FF4B2B;
+           color: white; }
+   button:active { 	transform: scale(0.95); }
+   button:focus { 	outline: none; }
+
+   button.ghost { 	
+   	  background-color: transparent; 
+      border-color: #FFFFFF;
+
+       }

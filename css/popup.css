@@ -1,0 +1,14 @@
+ 
+  #modal:target{
+   opacity: 1;
+   visibility: visible;
+  }
+  #modal:target .modal__content{
+   opacity: 1;
+   visibility: visible;
+  }
+ *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+  }

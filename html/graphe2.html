@@ -1,0 +1,33 @@
+ <html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['apprenants', 'course view', 'user view', 'course report outline'],
+          ['Cereghetti', 900, 400, 200],
+          ['Ortaer', 800, 1000, 250],
+          ['Schneider', 660, 1120, 300],
+          ['Piguet', 830, 540, 750]
+        ]);
+
+        var options = {
+          chart: {
+            title: 'taux des actions des apprenants ',
+            subtitle: 'course view, user view, course report outline',
+          }
+        };
+
+        var chart = new google.charts.Bar(document.getElementById('columnchart_material'));
+
+        chart.draw(data, google.charts.Bar.convertOptions(options));
+      }
+    </script>
+  </head>
+  <body>
+    <div id="columnchart_material" style="width: 780px; height: 450px;"></div>
+  </body>
+</html>
